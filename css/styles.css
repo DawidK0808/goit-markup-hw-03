@@ -21,5 +21,72 @@ body {
 
 .navigation-logo {
     color: var(--primary_brand-color);
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo-span {
+    color: var(--dark-color);
+}
+
+.navigation-link {
+    color: var(--dark-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.address-link {
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navigation-link:hover,
+.navigation-logo:focus {
+    color: var(--pressed_state-color);
+}
+
+.address {
+    font-style: normal;
+}
+
+.filter-button {
+    color: var(--primary_brand-color);
+    background-color: #f4f4fd;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    color: #ffffff;
+    background-color: #404bbf;
+
+    text-align: center;
+    font-family: 'Robo';
 }
